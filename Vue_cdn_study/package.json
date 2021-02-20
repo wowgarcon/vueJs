@@ -1,0 +1,25 @@
+{
+  "name": "vue_cdn_study",
+  "version": "1.0.0",
+  "description": "vue study to CDN version",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wowgarcon/vueJs.git"
+  },
+  "author": "wowgarcon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wowgarcon/vueJs/issues"
+  },
+  "homepage": "https://github.com/wowgarcon/vueJs#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
