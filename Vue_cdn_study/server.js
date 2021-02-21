@@ -5,7 +5,7 @@ const port = 3000;
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
 app.set('views', __dirname + '/src/views');
-app.use(express.static(__dirname + '/src/resources'));
+app.use(express.static(__dirname + '/src/assets'));
 
 app.get('/', function (req, res) {
   res.render('index.html');

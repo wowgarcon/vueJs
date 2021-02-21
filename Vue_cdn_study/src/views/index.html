@@ -4,15 +4,13 @@
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <body>
     <div id="app">
-      <h1>{{ pageTitle }}</h1>
-      <span v-bind:title="name">Hello, {{ name }}</span>
-      <button v-if="!isLogin" v-on:click="login">Login</button>
-      <button v-if="isLogin" v-on:click="logout">Logout</button>
+      <h1>MainPage</h1>
+      <my-header></my-header>
       <br />
       <div>
-        <ul>
+        <!-- <ul>
           <li v-for="menu in menus">{{ menu.title }}</li>
-        </ul>
+        </ul> -->
       </div>
     </div>
   </body>
